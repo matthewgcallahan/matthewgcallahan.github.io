@@ -5356,10 +5356,8 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-.container {
-  max-width: 1000px; }
-
 .page-header {
+  height: 80vh;
   width: 100%;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -5369,17 +5367,47 @@ button.close {
           align-items: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  border: none; }
   .page-header h1, .page-header p {
     text-align: center;
     float: none; }
   .page-header h1 {
-    font-family: turnip;
-    font-size: 60px; }
+    font-family: "Surveyor Fine A", "Surveyor Fine B", serif;
+    font-weight: 700;
+    font-size: 5vw; }
+  .page-header p {
+    font-family: "Surveyor SSm A", "Surveyor SSm B", Helvetica, Arial, sans-serif;
+    font-weight: 400; }
+
+.next-arrow {
+  position: absolute;
+  display: block;
+  right: -10px !important;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8); }
+  .next-arrow .fa {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+            transform: translate3d(-50%, -50%, 0); }
 
 .publication {
-  border-top: 1px solid #ddd;
   position: relative;
+  margin: 0 auto;
+  padding: 40px 0;
+  border-top: 1px solid #ddd;
+  max-width: 1200px;
   /*   .publication-headline.affix{
       top: 20px;
       position: fixed;
@@ -5389,6 +5417,12 @@ button.close {
    .affix-end{
       bottom: 20px;
    }*/ }
+  .publication:last-of-type {
+    margin-bottom: 20vh; }
+  .publication .pages {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto; }
   .publication img {
     max-height: 90vh;
     max-width: 100%;
@@ -5414,7 +5448,7 @@ button.close {
     position: absolute; }
   .publication h3 {
     font-family: georgia;
-    font-weight: bold; }
+    font-weight: 700; }
     .publication h3 span {
       color: #999; }
   .publication h3.wp-head {
