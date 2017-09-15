@@ -5393,6 +5393,10 @@ button.close {
   border-radius: 100%;
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.8); }
+  @media (max-width: 992px) {
+    .next-arrow {
+      -webkit-transform: translateY(50%);
+              transform: translateY(50%); } }
   .next-arrow .fa {
     position: absolute;
     margin: 0;
@@ -5407,16 +5411,7 @@ button.close {
   margin: 0 auto;
   padding: 40px 0;
   border-top: 1px solid #ddd;
-  max-width: 1200px;
-  /*   .publication-headline.affix{
-      top: 20px;
-      position: fixed;
-   }
-
-
-   .affix-end{
-      bottom: 20px;
-   }*/ }
+  max-width: 1200px; }
   .publication:last-of-type {
     margin-bottom: 20vh; }
   .publication .pages {
@@ -5431,10 +5426,6 @@ button.close {
     padding: 5px;
     display: block;
     /*float:right;*/ }
-    @media (max-width: 992px) {
-      .publication img {
-        float: none;
-        margin: 15px auto; } }
   .publication .holder {
     margin: 20px; }
   .publication .headline-holder {
