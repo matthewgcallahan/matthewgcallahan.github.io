@@ -5414,10 +5414,6 @@ button.close {
   max-width: 1200px; }
   .publication:last-of-type {
     margin-bottom: 20vh; }
-  .publication .pages {
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto; }
   .publication img {
     max-height: 90vh;
     max-width: 100%;
