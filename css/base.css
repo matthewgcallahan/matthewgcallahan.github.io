@@ -5375,10 +5375,17 @@ button.close {
   .page-header h1 {
     font-family: "Surveyor Fine A", "Surveyor Fine B", serif;
     font-weight: 700;
-    font-size: 5vw; }
+    font-size: 3em; }
   .page-header p {
     font-family: "Surveyor SSm A", "Surveyor SSm B", Helvetica, Arial, sans-serif;
     font-weight: 400; }
+
+p {
+  font-family: "Surveyor SSm A", "Surveyor SSm B", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.1em; }
+  p a {
+    font-weight: 700; }
 
 .next-arrow {
   position: absolute;
@@ -5392,11 +5399,12 @@ button.close {
   height: 60px;
   border-radius: 100%;
   padding: 10px;
-  background-color: rgba(255, 255, 255, 0.8); }
+  background-color: black;
+  border: 2px solid #fff; }
   @media (max-width: 992px) {
     .next-arrow {
-      -webkit-transform: translateY(50%);
-              transform: translateY(50%); } }
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%); } }
   .next-arrow .fa {
     position: absolute;
     margin: 0;
@@ -5404,18 +5412,34 @@ button.close {
     top: 50%;
     left: 50%;
     -webkit-transform: translate3d(-50%, -50%, 0);
-            transform: translate3d(-50%, -50%, 0); }
+            transform: translate3d(-50%, -50%, 0);
+    color: white; }
 
 .publication {
   position: relative;
   margin: 0 auto;
-  padding: 40px 0;
+  padding: 60px 0;
   border-top: 1px solid #ddd;
   max-width: 1200px; }
   .publication:last-of-type {
     margin-bottom: 20vh; }
+  .publication.project {
+    text-align: center; }
+    .publication.project:before {
+      background-color: black;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      height: 30px;
+      width: 60px;
+      border-bottom-left-radius: 60px;
+      border-bottom-right-radius: 60px;
+      display: block; }
+  .publication .col-md-6 {
+    margin: 40px auto; }
   .publication img {
-    max-height: 90vh;
     max-width: 100%;
     margin: 15px auto;
     border: 1px solid #f0f0f0;
@@ -5434,7 +5458,7 @@ button.close {
   .publication .publication-headline.above {
     position: absolute; }
   .publication h3 {
-    font-family: georgia;
+    font-family: "Surveyor Fine A", "Surveyor Fine B", Helvetica, Arial, sans-serif;
     font-weight: 700; }
     .publication h3 span {
       color: #999; }
