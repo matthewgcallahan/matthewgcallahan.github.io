@@ -5445,7 +5445,8 @@ p {
     border: 1px solid #f0f0f0;
     padding: 5px;
     display: block;
-    /*float:right;*/ }
+    /*float:right;*/
+    cursor: pointer; }
   .publication .holder {
     margin: 20px; }
   .publication .headline-holder {
@@ -5468,3 +5469,57 @@ p {
     top: 20px; }
   .publication a {
     font-weight: bold; }
+
+.slick-slide {
+  cursor: pointer; }
+
+.callahan-modal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  top: 0;
+  left: 0;
+  display: none; }
+  .callahan-modal.active {
+    display: block; }
+  .callahan-modal img {
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 30px;
+    max-width: 100%;
+    bottom: 30px;
+    max-height: calc(100% - 60px);
+    position: absolute;
+    padding: 10px;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: #fff 0px 0px 11px 7px; }
+  .callahan-modal .callahan-close {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    z-index: 1;
+    height: 44px;
+    width: 44px;
+    text-align: center;
+    border-radius: 100%;
+    border: 2px solid #888;
+    color: #888;
+    background-color: white;
+    cursor: pointer; }
+    @media (max-width: 992px) {
+      .callahan-modal .callahan-close {
+        top: 15px;
+        right: 15px; } }
+    .callahan-modal .callahan-close:hover {
+      color: #000;
+      border: 2px solid #000; }
+    .callahan-modal .callahan-close:before {
+      font-size: 20px;
+      top: 50%;
+      position: absolute;
+      -webkit-transform: translate3d(-50%, -50%, 0);
+              transform: translate3d(-50%, -50%, 0);
+      left: 50%; }
