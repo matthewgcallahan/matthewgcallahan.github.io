@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/matthewgcallahan
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://matthewgcallahan.com
+  * I am matthewgcallahan (https://keybase.io/matthewgcallahan) on keybase.
+  * I have a public key ASDXJekucWThPp_peVpz-_UJ27ocqDUgk9zwRZfWwDeGvwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120d725e92e7164e13e9fe9795a73fbf509dbba1ca8352093dcf04597d6c03786bf0a",
+      "host": "keybase.io",
+      "kid": "0120d725e92e7164e13e9fe9795a73fbf509dbba1ca8352093dcf04597d6c03786bf0a",
+      "uid": "f67bee5e978a00c14e6e7731619d0d19",
+      "username": "matthewgcallahan"
+    },
+    "merkle_root": {
+      "ctime": 1581096759,
+      "hash": "b946f20da32e0d50690beaab6d511c8efc93cb68ece59f47761b20c04982e93bc13b062770fc53e5e2ae570cba55ab41a01b6077bc0c41ebcd180aa2129a53ea",
+      "hash_meta": "86457f76583b534eecff162bc9161d695836f3bd95d8331446d6c478cd91a245",
+      "seqno": 14526157
+    },
+    "service": {
+      "entropy": "Vl/NQNpiUhpMVsj/UtVA3WUn",
+      "hostname": "matthewgcallahan.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.2.0"
+  },
+  "ctime": 1581096767,
+  "expire_in": 504576000,
+  "prev": "aeb0a2ca60fbc0a5a3eea9265799126953b350edd1a63e992ff95aa30ac3f8fd",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg1yXpLnFk4T6f6Xlac/v1Cdu6HKg1IJPc8EWX1sA3hr8Kp3BheWxvYWTESpcCBcQgrrCiymD7wKWj7qkmV5kSaVOzUO3Rpj6ZL/laowrD+P3EIOAw2L0tQ3oHweUdUUHCCMQSxq9cO+pbGPC77Tc9/J/GAgHCo3NpZ8RA2l6Y5B9TSoW4gutmz5MeeIUueOcZwirYFOtypCPplfUWpX2QXy1/snQjx6d991jN34bbznP1IddBl23HETgBBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPxdOGoaJyEHN9ggwa3QyGiUrFCIjH2ClMmiHGvWb+WCo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/matthewgcallahan
+
+==================================================================
